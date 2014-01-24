@@ -1,0 +1,1 @@
+var choice = Math.random();var realChoice = "";if (choice < 0.3) {	console.log("rock");	realChoice = "rock";} else if (choice < 0.6) {	console.log("paper");	realChoice = "paper";} else {	console.log("scissors");	realChoice = "scissors";}var userChoice = prompt("what is your choice");
